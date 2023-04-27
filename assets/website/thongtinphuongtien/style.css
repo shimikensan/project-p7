@@ -1,0 +1,46 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Layout */
+
+header p {
+    height: 100px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: aqua;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+ul {
+    padding: 20px 100px;
+}
+
+ul > li {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    margin: 10px 0;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+ul > li > a {
+    font-weight: bold;
+    color: rgb(0, 255, 229);
+}

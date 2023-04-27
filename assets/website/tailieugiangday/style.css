@@ -1,0 +1,60 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../img/logo/hinh-nen-cong-nghe.jpg");
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+/* Layout */
+header {
+    background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    height: 80px;
+    padding: 30px;
+}
+header p {
+    font-size: 70px;
+    line-height: 80px;
+    text-align: center;
+}
+
+marquee img {
+    width: 50%;
+    margin: 20px;
+}
+
+footer {
+    background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    height: 20px;
+}
+
+/* Section */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+section img {
+    width: 20%;
+    border: solid 2px black;
+    margin: 20px;
+}
+
+section img:hover {
+    cursor: pointer;
+}

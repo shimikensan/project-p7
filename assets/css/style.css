@@ -1,0 +1,88 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../img/logo/hinh-nen-cong-nghe.jpg");
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Layout */
+/* header */
+header {
+    display: flex;
+    margin: 20px 30px 0;
+}
+
+header .logo {
+    width: 10%;
+    margin-right: 30px;
+    margin-left: 40px;
+}
+
+.logo img {
+    width: 100%;    
+}
+.logo .title1 {
+    height: 170px;
+    
+}
+.title1 p {
+    color: #ffffff;
+    font-size: 85px;
+    line-height: 170px;
+    margin-left: 40px;
+}
+
+/* Section - Menu */
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+    margin-left: 25px;
+    height: 50px;
+}
+
+#menu div {
+    display: flex;
+    height: 40px;
+    font-size: 25px;
+    background-color: rgba(0, 255, 255, 0.327);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    min-width: 450px;
+}
+
+div ion-icon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: rgb(213, 175, 249);
+    height: 40px;
+}
+
+div p a {
+    line-height: 40px;
+    color: #ffffff;
+}
+
+#menu div:hover {
+    background-color: rgba(204, 250, 77, 0.841);
+    cursor: pointer;
+}
+
+
+
+

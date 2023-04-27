@@ -1,0 +1,53 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Layout */
+marquee img {
+    margin-top: -1850px;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 1px;
+}
+
+th {
+    border: 2px solid black;
+}
+
+table th {
+    height: 60px;
+    background-color: red;
+    font-size: 25px;
+    color: #ffffff;
+}
+tr > th:nth-child(1) {
+    width: 165px;
+}
+
+tr > th:nth-child(2) {
+    width: 104px;
+}
+
+tr > th:nth-child(3) {
+    width: 867px;
+}
+
+tr > th:nth-child(4) {
+    width: 377px;
+}
+
+
+header p {
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    font-size: 50px;
+    background-color: aqua;
+    color: #fa0000;
+}
